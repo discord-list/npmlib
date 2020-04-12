@@ -56,8 +56,9 @@ var api = axios_1.default.create({
 var DL = /** @class */ (function (_super) {
     __extends(DL, _super);
     function DL(token) {
-        return _super.call(this) || this;
-        //this.token = token
+        var _this = _super.call(this) || this;
+        _this.token = token;
+        return _this;
     }
     DL.prototype.getBots = function () {
         return __awaiter(this, void 0, void 0, function () {
