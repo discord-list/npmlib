@@ -19,6 +19,7 @@ interface Bot {
   bibl: String,
   shortDescription: String,
   description: String,
+  lang: "pt" | "en",
   tags: String[],
   invite: String,
   website: String,
