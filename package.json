@@ -30,7 +30,7 @@
   "homepage": "https://docs.discordlist.pt/libs/node",
   "dependencies": {
     "@types/node": "^13.11.1",
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
     "typescript": "^3.8.3"
